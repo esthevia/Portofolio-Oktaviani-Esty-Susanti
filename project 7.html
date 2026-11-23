@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPI Monitoring Dashboard in Looker Studio | Oktaviani Esty Susanti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css?v=10">
+</head>
+<body>
+    <header class="site-header">
+        <nav>
+            <a href="index.html" class="brand">
+                <span class="brand-name">Oktaviani Esty Susanti</span>
+                <span class="brand-role">Statistician &amp; Data Analyst</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="infografis.html">Infographics</a></li>
+                <li><a href="sertifikat.html">Certificates</a></li>
+                <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="project-detail-header">
+        <div class="wrap">
+            <span class="eyebrow">Case 07 &middot; Business Intelligence</span>
+            <h1>Dashboard Monitoring KPI Cabang dengan Looker Studio</h1>
+        </div>
+    </header>
+
+    <div class="detail-content">
+        <div class="wrap">
+            <div class="detail-media">
+                <div class="media-frame">
+                    <h4>Dashboard 1 &ndash; KPI Overview (Seluruh Cabang)</h4>
+                    <img src="KPI Dashboard Cabang.png" alt="Key Performance Indicator Dashboard overview">
+                </div>
+                <div class="media-frame">
+                    <h4>Dashboard 2 &ndash; Raport KPI Individu</h4>
+                    <img src="KPI Dashboard Raport.png" alt="KPI report card dashboard per employee">
+                </div>
+            </div>
+
+            <div class="detail-body">
+                <div class="detail-block">
+                    <h2>Latar Belakang</h2>
+                    <p>Pemantauan KPI pada perusahaan dengan banyak cabang dan wilayah sering kali dilakukan secara manual dan terpisah-pisah, sehingga sulit untuk melihat performa secara menyeluruh maupun membandingkan antar cabang. Proyek ini membangun dashboard interaktif di Looker Studio yang menyajikan capaian KPI secara terpusat, mulai dari level wilayah, cabang, hingga individu karyawan.</p>
+                </div>
+
+                <div class="detail-block">
+                    <h2>Konsep Dashboard</h2>
+                    <p>Dashboard terdiri dari dua halaman dengan tujuan yang berbeda:</p>
+                    <ul>
+                        <li><strong>KPI Overview</strong> &ndash; tampilan ringkasan untuk manajemen yang memuat jumlah wilayah, cabang, dan karyawan, wilayah dan cabang terbaik serta terendah, distribusi karyawan, peringkat cabang, kategori performa, tren performa per wilayah, hingga tabel ringkasan performa karyawan.</li>
+                        <li><strong>Raport KPI Individu</strong> &ndash; tampilan berbentuk raport untuk setiap karyawan yang memuat identitas (nama, NIK, wilayah, cabang), rata-rata skor, peringkat dibandingkan seluruh cabang, nilai setiap measurement per bulan, tren total poin, dan tren peringkat bulanan.</li>
+                    </ul>
+                </div>
+
+                <div class="detail-block">
+                    <h2>Fitur Utama</h2>
+                    <ul>
+                        <li>Scorecard ringkasan: jumlah wilayah, cabang, karyawan, serta best/worst region dan branch</li>
+                        <li>Filter interaktif berdasarkan tahun, bulan, wilayah, cabang, dan posisi</li>
+                        <li>Top 5 dan Bottom 5 cabang berdasarkan total poin</li>
+                        <li>Top 5 dan Bottom 5 karyawan beserta cabang dan posisinya</li>
+                        <li>Kategori performa (80&ndash;100, 70&ndash;80, 0&ndash;70) untuk setiap wilayah</li>
+                        <li>Tren rata-rata skor bulanan per wilayah untuk melihat konsistensi performa</li>
+                        <li>Format raport per karyawan dengan rincian measurement dan peringkat bulanan, sehingga hasil evaluasi lebih transparan dan mudah dipahami</li>
+                    </ul>
+                </div>
+
+                <div class="detail-block">
+                    <h2>Manfaat</h2>
+                    <ul>
+                        <li>Mempercepat proses monitoring KPI karena data tersaji dalam satu tempat dan diperbarui otomatis</li>
+                        <li>Memudahkan manajemen mengidentifikasi wilayah, cabang, dan karyawan yang perlu mendapat perhatian atau pembinaan</li>
+                        <li>Mendorong persaingan sehat antar cabang melalui peringkat yang terbuka</li>
+                        <li>Membantu karyawan memahami capaian dan perkembangan kinerjanya sendiri</li>
+                    </ul>
+                </div>
+
+                <div class="detail-block">
+                    <h2>Tools</h2>
+                    <ul>
+                        <li>Looker Studio (visualisasi dan interaktivitas dashboard)</li>
+                        <li>Pengolahan dan perhitungan skor KPI (calculated field)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="back-row">
+                <a href="projects.html" class="btn btn-outline back-to-home"><i class="fas fa-arrow-left"></i> Back</a>
+                <a href="project 1.html" class="btn btn-primary next-project">Next Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2024 Oktaviani Esty Susanti. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/oktaviani-esty-susanti-721b1731a/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://wa.me/+6281238084622" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:oktassnt17@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
